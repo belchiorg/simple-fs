@@ -37,3 +37,7 @@ The introduction of the `tfs_copy_from_external_fs` function enables the seamles
 ### 1.3 Support for Concurrent Calls
 
 TecnicoFS has been enhanced to accommodate concurrent execution by multiple client tasks. Achieved through the implementation of thread-safe mechanisms, the system now utilizes logical locks (`pthread_mutex`) or read-write locks (`pthread_rwlock`).
+
+### Source code
+
+Check the source code [here](https://github.com/tecnico-so/projeto-so-2022-23/tree/ex1)
